@@ -43,7 +43,7 @@ app.use(express.json());
 app.use(morgan("dev"));
 app.use(
   cors({
-    origin: ["https://ejae-ecommerce.vercel.app"], 
+    origin: clientURL,
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true,
   })

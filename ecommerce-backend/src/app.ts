@@ -66,3 +66,5 @@ app.use(errorMiddleware);
 app.listen(port, () => {
   console.log(`Express is working on http://localhost:${port}`);
 });
+
+console.log("Allowed Client URL:", clientURL);
